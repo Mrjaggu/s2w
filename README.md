@@ -7,10 +7,10 @@ A reusable library that can convert a paragraph of spoken english to written eng
 
 ## Requirement
 
-Now, let’s take a look at requirements.txt
-numpy
-pandas
-scikit-learn
+Now, let’s take a look at requirements.txt<br>
+numpy<br>
+pandas<br>
+scikit-learn<br>
 List of required packages is very simple but fine for now. It is very important to track all project’s dependencies. Later we will see that simply listing required packages is not enough, but if you are not using even this simple list, please start.
 
 ## 2 List all your dependencies and create separate environment
@@ -28,8 +28,10 @@ And more :)<br>
 
 ## 3 Package your code
 <br>
-The last thing is to create setup.py in the project root directory. This file contains all meta-information about the package. It can be very large, but for our purposes (at this moment) a few lines are sufficient:
+The last thing is to create setup.py in the project root directory.<br>
+This file contains all meta-information about the package. <br>
+It can be very large, but for our purposes (at this moment) a few lines are sufficient:
 <br>
-Very last thing to do is to install our package. To do this type following (in project root):
-pip install -e .
-There is no magic: instead of package name we provide a dot which means “install current directory”. The -e switch makes it installed in development mode. This basically means that every change in package source will be immediately reflected in installed version — there would be no need to reinstall it after making changes. You can see your package after executing pip list:
+Very last thing to do is to install our package. To do this type following (in project root):<br>
+pip install -e .<br>
+There is no magic: instead of package name we provide a dot which means “install current directory”. The -e switch makes it installed in development mode. This basically means that every change in package source will be immediately reflected in installed version — there would be no need to reinstall it after making changes. You can see your package after executing<br> pip list:
