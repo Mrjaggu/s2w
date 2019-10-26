@@ -1,6 +1,6 @@
 # s2w
-A reusable library that can convert a paragraph of spoken english to written english.
-
+A reusable library that can convert a paragraph of spoken english to written english.<br>
+For example, "two dollars" should be converted to $2. Abbreviations spoken as "C M" or "Triple A" should be written as "CM" and "AAA" respectively
 
 
 ## 1 Always make sure you can acquire the data once again — and your team know how to do it
